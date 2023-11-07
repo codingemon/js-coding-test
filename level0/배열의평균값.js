@@ -15,7 +15,7 @@
 // 입출력 예 #1
 // numbers의 원소들의 평균 값은 5.5입니다.
 // 입출력 예 #2
-// numbers의 원소들의 평균 값은 94.0입니다.
+// numbers의 원소들의 평균 값은 94.0입니다
 
 function solution(arr) {
   return arr.reduce((sum, current) => sum + current) / arr.length;
