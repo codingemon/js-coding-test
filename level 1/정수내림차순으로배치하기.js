@@ -12,9 +12,6 @@ function solution(n) {
 }
 
 // 주어진 n에 + ‘’를 해서 String으로 만들어준다.
-
 // split() 메소드로 각 자리를 쪼개서 sort 메소드로 정렬해준다.
-
 // 2-1. 이때 sort(a, b)일때, b - a는 내림차순 정렬을 의미한다.
-
 // join(””)으로 다시 각각의 자리들을 합쳐주고, parseInt를 통해 Number 형식으로 바꾸어준다.
